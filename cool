@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	int k;
+	int times = 0;
+	string first;
+	string last;
+	int time;
+	cout << "How many recorded times are you entering?" << endl;
+	cin >> k;
+	while (times <= k)
+	{
+		cout << "Enter first name, last name, and time." << endl;
+		cin >> first >> last >> time;
+		times++;
+	}
+	
+	
+	return 0;
+}
